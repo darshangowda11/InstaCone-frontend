@@ -28,7 +28,7 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-see my instaclone project here https://darshanfrontend.onrender.com/ 
+
 
 ### `npm run eject`
 
@@ -65,6 +65,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Checkout my instaClone project here : [https://darshan-instaclient.onrender.com]
 
 ### `npm run build` fails to minify
 
