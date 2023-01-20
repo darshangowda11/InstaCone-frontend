@@ -13,7 +13,7 @@ export default function UploadView({ setIndicators }) {
         let dataFromForm = Object.fromEntries(formData.entries());
         console.log(dataFromForm);
 
-        await fetch("http://localhost:3300/posts", {
+        await fetch("https://darshan-instaclient.onrender.com/postview/posts", {
             method: "post",
             body: formData,
             redirect: "follow"
