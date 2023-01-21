@@ -12,7 +12,7 @@ export default function Postview() {
     const [Indicators, setIndicators] = useState(true);
 
     useEffect(() => {
-        fetch("https://darshanfrontend.onrender.com/posts")
+        fetch("https://darshan-instaserver.onrender.com/posts")
             .then(res => { return res.json() })
             .then(data => {
                 console.log(data);
