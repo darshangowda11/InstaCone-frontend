@@ -1,35 +1,44 @@
 .card{ 
-    width:100%;
-    margin-right: 50px;
+    width:500px;
+    height: 700px;
+    margin:auto;
     display: block;
-    text-align: center; 
+
+    
 }
 .image{
     width:500px;
     height: 500px;
     display: flex;
     margin: auto;
+    border: 5px solid;
+    border-color: rgb(210, 239, 179) ;
+    border-radius: 20px
+  ;
     
 }
 .dots{
-    display: block;
+       float: left;
     
 }
-/* .name, .location{
-    display: block;
+.name{
+   float: left;
+}
+.location{
     float:right;
-} */
+}
 .heart ,.plane{
-    margin: 15px;
+    margin: 5px;
+    float: left;
 }
 .likes{
     display: block;
     
 }
-.data{
-    margin-right: 0px;
+.date{
+    float: right;
 }
 .descriptions{
     width:100%;
-    margin:50px;
+    margin:20px;
 }
