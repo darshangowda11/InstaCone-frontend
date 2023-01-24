@@ -1,13 +1,17 @@
 .header{
     display: inline-flex;
-    background-color: antiquewhite;
+    background-color: rgb(245, 206, 188);
+ 
 }
 h1{
-    margin-right:150vh;
+    margin-right:250px;
 }
 .topleft{
-    margin-left:15px;
+    margin-left:25px;
 }
 .topright{
-    margin-right:15px;
+    margin-right:25px;
+}
+.color{
+    color: rgb(37, 4, 79);
 }
