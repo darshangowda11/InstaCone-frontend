@@ -1,26 +1,39 @@
+/* body{
+    background-color: #cdd0d0;
+  
+} */
+
 .landing_page_image{
-    height: 900px;
-    width: 600px;
+    height: 750px;
+    width: 700px;
     /* float: left; */
 }
+.enter{
+    background-color: rgb(224, 109, 15);
+    text-align: center;
+}
+
 .container{
     display: inline;
+  
 }
 .left{
-    float:left
+    float:left;
 }
 .right{
     float:left;
+    padding-left: 200px;
+
 }
 .text{
-margin-top: 385px;
+margin-top: 280px;
 margin-right: 100px;
-width: 351px;
-height: 85px;
+/* width: 351px;
+height: 85px; */
 text-align: center;
 font: normal normal normal 64px/85px Palatino;
 letter-spacing: 0px;
-color: #006238;
+color: #319e1b;
 opacity: 1;
 
 
