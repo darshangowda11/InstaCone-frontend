@@ -6,14 +6,14 @@ import "./card.css"
 
 export default function InstaCard({user}){
     return <section className="card">
-        <h3 className="name"> {user.name}</h3>
-        <address className="location">{user.location}</address>
-        <BsThreeDots className="dots"/>
+        <h4 className="name"> {user.name}</h4> 
+        <p className="location">{user.location}</p>
         <img className="image" src={user.PostImage} alt="postimg"/>
+        <BsThreeDots className="dots"/>
         <BsFillHeartFill className="heart"></BsFillHeartFill>
         <SlPaperPlane className="plane"></SlPaperPlane>
-        <time className="data">{user.date}</time>
-        <sub className="likes">{user.likes}likes</sub>
-        <div className="discription">{user.description}</div>
+        <time className="date">{user.date}</time>
+        <sub className="likes">{user.likes}likes : 25</sub>
+        <div className="descriptions">{user.description}</div>
     </section>
 }
