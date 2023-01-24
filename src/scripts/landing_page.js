@@ -11,7 +11,7 @@ export default function Landing_page() {
   </section>
   <section class="right">
     <h1 class="text">10x Team 04</h1>
-    <Link to="/postview"><button> Enter </button></Link>
+    <Link to="/postview"><button class="enter"> Enter </button></Link>
   </section>
   </div>
   )
